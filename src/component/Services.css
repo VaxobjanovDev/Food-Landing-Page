@@ -1,0 +1,149 @@
+.services-section {
+  padding: 50px 0;
+  background-color: #fff5ec;
+}
+
+.text-header {
+  color: #2e266f;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  display: flex;
+  padding: 1rem;
+}
+
+.text-header p {
+  color: #707070;
+}
+
+.services-left__col {
+  text-transform: capitalize;
+  border-left: 5px solid #fe043c;
+}
+
+.booking-table__cover,
+.food-for__cover {
+  margin-top: 2rem 3rem;
+  display: flex;
+  width: 100%;
+}
+
+.cover-texts {
+  font-weight: 700;
+  color: #2e266f;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.cover-texts p {
+  color: #707070;
+  padding-top: 0.5rem;
+}
+.food-for__cover {
+  padding-top: 2rem;
+}
+
+.cover-image {
+  justify-content: center;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  padding: 2rem;
+  background-color: #ffedde;
+}
+.delivery__cover {
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem;
+  background-color: #ffedde;
+}
+
+.delivery-text {
+  color: #2e266f;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  border-bottom: 5px solid #fc043c;
+}
+
+.delivery-text p {
+  color: #707070;
+  margin: 1rem auto;
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+  .booking-table__cover,
+  .food-for__cover {
+    margin: 2rem 1rem;
+  }
+  .delivery__cover {
+    margin: 0 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .cover-texts {
+    padding: 1.5rem;
+  }
+
+  .booking-table__cover,
+  .food-for__cover {
+    margin: 0;
+    margin-top: 2rem;
+  }
+
+  .cover-image {
+    width: 100%;
+  }
+
+  .delivery__cover {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .cover-image {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .text-header {
+    margin-left: 0;
+  }
+
+  .services-paragraph {
+    font-size: 0.8rem;
+  }
+
+  .booking-table__cover,
+  .food-for__cover {
+    margin: 0;
+  }
+
+  .cover-texts {
+    padding: 1.2rem;
+  }
+
+  .cover-texts h3 {
+    font-size: 1.1rem;
+  }
+
+  .cover-texts p {
+    font-size: 0.8rem;
+  }
+
+  .cover-image {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .delivery__cover {
+    padding: 4rem;
+    width: 100%;
+  }
+}

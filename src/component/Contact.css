@@ -1,0 +1,153 @@
+.contact-section {
+  background-color: #ffedde;
+  padding: 50px 0;
+  background-image: url("./images/contact-section-left.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: -7rem;
+  background-position-y: 1rem;
+}
+
+.text-heading {
+  text-align: center;
+  margin: 5rem auto 3rem auto;
+  width: 100%;
+  padding: 2rem;
+  color: #2e266f;
+}
+
+.text-heading p {
+  margin: 1rem;
+  color: #707070;
+}
+
+.form {
+  margin: 0 auto;
+  position: relative;
+  width: 70%;
+  text-align: center;
+}
+
+.contact-input {
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+}
+
+.arrow-button {
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  font-size: 1.5rem;
+  align-items: center;
+  border: none;
+}
+
+.arrow-icon {
+  border-radius: 50%;
+  background-color: #fff;
+  color: #fe043c;
+}
+
+.other-links {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.other-links ul li {
+  display: inline-block;
+  padding: 1rem;
+  list-style: none;
+}
+
+.other-links ul li a {
+  color: #707070;
+  text-decoration: none;
+}
+
+.footer {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  margin: 3rem 0 0 auto;
+}
+
+.social-media ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.social-media ul li a {
+  color: #707070;
+}
+
+.footer p {
+  color: #707070;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .contact-section {
+    background-position-x: -11rem;
+    background-size: contain;
+    background-position-y: -1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .contact-section {
+    background-position-x: -11rem;
+    background-size: contain;
+    background-position-y: -1rem;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 576px) {
+  .contact-section {
+    background-position-x: -12rem;
+    background-size: contain;
+    background-position-y: 0;
+  }
+
+  .form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .footer ul li {
+    padding: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .contact-section {
+    background-position-x: -11rem;
+    background-size: contain;
+    background-position-y: 0;
+  }
+
+  .text-heading {
+    padding: 0;
+  }
+
+  .form {
+    width: 90%;
+  }
+  .contact-input {
+    width: 100%;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+
+  .other-links > ul > li {
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,64 @@
+.download-app-section {
+  padding: 50px 0;
+  background-color: #fff5ec;
+}
+
+.download-text {
+  width: 100%;
+}
+.download-text h2 {
+  padding-left: 1rem;
+  border-left: 1rem solid #fe043c;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #524882;
+  font-weight: 900;
+}
+.download-text p {
+  padding-left: 2rem;
+  margin-top: 2rem;
+  color: #a09a95;
+  letter-spacing: 1px;
+}
+
+.download-button {
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #000000;
+  font-size: 1.2rem;
+  border: none;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  margin-left: 3rem;
+}
+
+.icon-download {
+  color: #fff;
+  margin-right: 1.2rem;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.download-app__right-col {
+  text-align: center;
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.download-phone__image {
+  width: 20rem;
+  border-radius: 40px;
+  border: 2px solid #e92026;
+}
+
+@media (min-width: 992px) and (max-width: 1330px) {
+  .download-text {
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .icon-download {
+    font-size: 1.2rem;
+  }
+}

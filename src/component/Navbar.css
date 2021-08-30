@@ -1,0 +1,128 @@
+/* ----- M a i n C s s ----- */ 
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* ----- M a i n C s s ----- */ 
+
+.navbar {
+  background: linear-gradient(90deg, #fff5ec 68%, #fe043c 33%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 5rem;
+	top: 0;
+	width: 100%;
+  position: fixed;
+  font-size: 1.2rem;
+	z-index: 999;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.container {
+  z-index: 1;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo-img {
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  display: flex;
+  cursor: pointer;
+}
+
+.logo-img img {
+  width: 50%;
+}
+
+.nav-menu {
+  color: #2e266f;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-item {
+  height: 5rem;
+}
+
+.nav-link {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.user-icon {
+  margin-right: 0.5rem;
+  border: 1px solid #000000;
+  font-size: 2rem;
+  padding: 0.3rem;
+  border-radius: 50%;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+		transition: all ease 1s;
+		background: linear-gradient(90deg, #fe043c 68%, #fff5ec 33%);
+  }
+
+  .nav-menu.active {
+    opacity: 1;
+    z-index: 1;
+    transition: all ease 1s;
+    left: 0;
+    background: linear-gradient(90deg, #fe043c 68%, #fff5ec 33%);
+  }
+
+  .nav-link {
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    transform: translate(-100%, 50%);
+    cursor: pointer;
+  }
+  .logo-img {
+    justify-content: start;
+  }
+}

@@ -1,6 +1,6 @@
 # Food-Landing-Page
 This is simple app made using Reactjs
-And you can see this simle app 
+And you can see this simle app on https://food-landing-pages.netlify.app/
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vaxobjanovdev)](https://github.com/VaxobjanovDev/github-readme-stats)
 

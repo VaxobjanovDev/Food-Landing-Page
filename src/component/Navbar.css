@@ -126,3 +126,9 @@ html {
     justify-content: start;
   }
 }
+
+@media screen and (max-width: 410px) {
+  .nav-item {
+    height: 4rem;
+  }
+}
